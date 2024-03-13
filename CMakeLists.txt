@@ -1,0 +1,5 @@
+cmake_minimum_required(VERSION 3.26)
+project(zmqdemo)
+find_package(cppzmq REQUIRED)
+find_package(ZeroMQ REQUIRED)
+add_subdirectory(${PROJECT_SOURCE_DIR}/src)
